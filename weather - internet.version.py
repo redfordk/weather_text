@@ -55,7 +55,7 @@ if response.status_code == 200:
         client = Client(account_sid, auth_token)
 
         message = client.messages.create(
-            to="19892930837", from_="18883398512", body=advice
+            to="1XXXXXXXXXX", from_="1XXXXXXXXXX", body=advice
         )
 
         print(f"Sent SMS: {message.sid}")
